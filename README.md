@@ -4,14 +4,14 @@ Transformers have revolutionized the field of Natural Language Processing (NLP) 
 
 This project implements the Transformer model from scratch using PyTorch, based on the paper: [*Attention Is All You Need!*](https://arxiv.org/abs/1706.03762).
 
-## 📌 Features
+##  Features
 
 - Implements a full Transformer architecture with encoder and decoder blocks
 - Includes multi-head attention, positional encoding, feedforward networks, and residual connections
 - Trains on the WMT14 English-German translation dataset (test split used for demonstration)
 - Customizable hyperparameters for experimentation
 
-## 📊 Results
+##  Results
 ### Training Log Summary
 | Epoch | Train Loss | Validation Loss |
 |-------|-----------|----------------|
@@ -29,7 +29,7 @@ This project implements the Transformer model from scratch using PyTorch, based 
 🔹 **Final Validation Loss:** `0.2456`  
 🔹 **Training Log:** Available in [`results/train_logs.txt`](results/train_logs.txt)
 
-## 📂 Project Structure
+##  Project Structure
 ```plaintext
 transformer-from-scratch/
 │── src/                   # Source code
@@ -45,7 +45,7 @@ transformer-from-scratch/
 │── requirements.txt       # Dependencies list
 ```
 
-## 📦 Installation & Setup
+##  Installation & Setup
 
 Follow these steps to set up the project:
 
