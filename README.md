@@ -3,6 +3,7 @@
 Transformers have revolutionized the field of Natural Language Processing (NLP) by introducing a novel mechanism for capturing dependencies within sequences through attention mechanisms. 
 
 This project implements the Transformer model from scratch using PyTorch, based on the paper: [*Attention Is All You Need!*](https://arxiv.org/abs/1706.03762).
+
 **Note**: All implementations and analysis are located in `notebooks/transformer-from-scratch.ipynb.`
 
 ##  Features
