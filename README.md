@@ -3,6 +3,7 @@
 Transformers have revolutionized the field of Natural Language Processing (NLP) by introducing a novel mechanism for capturing dependencies within sequences through attention mechanisms. 
 
 This project implements the Transformer model from scratch using PyTorch, based on the paper: [*Attention Is All You Need!*](https://arxiv.org/abs/1706.03762).
+**Note**: All implementations and analysis are located in `notebooks/transformer-from-scratch.ipynb.`
 
 ##  Features
 
@@ -29,41 +30,9 @@ This project implements the Transformer model from scratch using PyTorch, based 
 🔹 **Final Validation Loss:** `0.2456`  
 🔹 **Training Log:** Available in [`results/train_logs.txt`](results/train_logs.txt)
 
-##  Project Structure
-```plaintext
-transformer-from-scratch/
-│── src/                   # Source code
-│   ├── dataset.py         # Data processing
-│   ├── model.py           # Transformer implementation
-│   ├── train.py           # Training script (loss, optimizer,training loop)
-│   ├── evaluate.py        # Evaluation script (mask functions and evaluation loop)
-│── notebooks/             # Jupyter Notebook experiments
-│   ├── transformer-from-scratch.ipynb
-│── results/               # Logs and evaluation outputs
-│   ├── train_logs.txt     # Training logs
-│── README.md              # Project overview (this file)
-│── requirements.txt       # Dependencies list
-```
+## References
 
-##  Installation & Setup
+- Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). *Attention Is All You Need*. [arXiv:1706.03762](https://arxiv.org/abs/1706.03762)
+- PyTorch Documentation: [MultiheadAttention module](https://pytorch.org/docs/stable/generated/torch.nn.MultiheadAttention.html), [Transformer module](https://pytorch.org/docs/stable/generated/torch.nn.Transformer.html)
+- WMT14 English-German Dataset: [https://www.statmt.org/wmt14/translation-task.html](https://www.statmt.org/wmt14/translation-task.html)
 
-Follow these steps to set up the project:
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/ArenGolazizian/your-repository-name.git
-cd your-repository-name
-```
-###2️⃣ Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-### 3️⃣ Run Training
-```bash
-python src/train.py
-```
-### 4️⃣ Evaluate Model
-```bash
-python src/evaluate.py
-```
-Open transformer-from-scratch.ipynb to explore the implementation.
